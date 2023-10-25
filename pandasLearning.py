@@ -9,8 +9,8 @@ def readData():
     return dataIn
 
 #Function to read, filter, and return data by country code and crop
-def dataForPlot(data, country, crop, year):
-    dataThndTonne = data.loc[(data['LOCATION'] == country) & (data['SUBJECT'] == crop) & (data['MEASURE'] == 'THND_TONNE') & (data['TIME'] == year)]
+def getDataForPlot(data, country, crop):
+    dataThndTonne = data[(data['LOCATION'] == country) & (data['SUBJECT'] == crop) & (data['MEASURE'] == 'THND_TONNE')]
 
     return dataThndTonne
 
@@ -18,39 +18,26 @@ def dataForPlot(data, country, crop, year):
 dataIn = readData()
 
 #Get Unique Values for Country Codes and Crops from dataIn
+#For later use
 countries = dataIn.LOCATION.unique()
 crops = dataIn.SUBJECT.unique()
 year = dataIn.TIME.unique()
 
-numCountries = len(countries)
-yr = min(year)
-i = 0
-print(yr)
+#Get input to filter data by country code and crop type for plot
+#Input separated by space; ex. aus rice assigns plotData with data from dataIn filtered by AUS and RICE
+filterIn = input().split()
+countryCode = filterIn[0]
+crop = filterIn[1]
+plotData = getDataForPlot(dataIn, countryCode.upper(), crop.upper())
 
-#Loop to plot data for each country and crop on scatter plot
-while yr <= max(year):
-    totalYield = 0.0
-    avgYield = 0.0
-
-    while i < len(countries):
-        plotData = dataForPlot(dataIn, countries[i], 'RICE', yr)
-        totalYield = totalYield + plotData.Value
-        i+=1
-
-    avgYield = totalYield / numCountries
-    print(i)
-    print(totalYield)
-    yr+=1
-
-
-    #plotX = plotData.TIME
-    #plotY = plotData.Value
-    #plt.scatter(plotX, plotY, color = 'blue')
-    #plt.plot(plotX, plotY, color = 'orange')
-#plt.ylim(0,15)
-#plt.show()
-
-#df = pd.DataFrame()
-#df['Country'] = countries[0::1]
-
-#df.to_excel('output.xlsx', index = False)
+#Build visualizations and show plot
+plX = plotData.TIME
+plY = plotData.Value
+ax = plt.subplot()
+ax.scatter(plX, plY, color = 'blue')
+ax.plot(plX, plY, color = 'orange')
+ax.set_title(crop.capitalize() + " Yield in " + countryCode.upper())
+ax.set_xlabel("Crop Year")
+ax.set_ylabel("Amount in Metric Tonnes")
+ax.margins(0.1,0.1)
+plt.show()
