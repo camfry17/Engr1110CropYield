@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #Function to read data from csv into program
 def readData():
-    dataIn = pd.read_csv("crop_production.csv", header = [0], index_col = [0])
+    dataIn = pd.read_csv("SOURCE_DATA/crop_production.csv", header = [0], index_col = [0])
     dataIn.index.name = None
 
     return dataIn
