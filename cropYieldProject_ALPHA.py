@@ -10,7 +10,7 @@ def readData():
 
 #Function to read, filter, and return data by country code and crop
 def getDataForPlot(data, country, crop):
-    dataThndTonne = data[(data['LOCATION'] == country) & (data['SUBJECT'] == crop) & (data['MEASURE'] == 'THND_TONNE')]
+    dataThndTonne = data[(data['Code'] == country) & (data['Subject'] == crop) & (data['Measure'] == 'THND_TONNE')]
 
     return dataThndTonne
 
@@ -24,7 +24,7 @@ plotData = getDataForPlot(dataIn, plCountry, plCrop)
 
 
 #Build visualizations and show plot
-plX = plotData.TIME
+plX = plotData.Year
 plY = plotData.Value
 ax = plt.subplot()
 ax.scatter(plX, plY, color = 'blue')

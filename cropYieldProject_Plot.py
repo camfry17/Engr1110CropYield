@@ -1,13 +1,49 @@
 import matplotlib.pyplot as plt
 
-def buildPlot(data, country, crop):
-    plX = data.TIME
-    plY = data.Value
-    ax = plt.subplot()
-    ax.scatter(plX, plY, color = 'blue')
-    ax.plot(plX, plY, color = 'orange')
-    ax.set_title(crop.capitalize() + " Yield in " + country.upper())
-    ax.set_xlabel("Crop Year")
-    ax.set_ylabel("Amount in Metric Tonnes")
-    ax.margins(0.1,0.1)
+def buildPlot(cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, country, crop):
+    #Initialize plot parameters, figure, and axes
+    plt.rcParams['toolbar'] = 'None'
+    fig,axs = plt.subplots(2, layout = 'constrained')
+    figTitle = (crop.capitalize() + " Yield vs. Hunger Index in " + country)
+
+    #Pull data into local variables
+    cYear = cropPlotData.Year
+    ghYear = ghiPlotData.Year
+    unYear = underPlotData.Year
+    wsYear = wastingPlotData.Year
+    stYear = stuntingPlotData.Year
+    cVal = cropPlotData.Value
+    ghVal = ghiPlotData.Global_Hunger_Index_2021
+    unVal = underPlotData.Prevalence_of_underweight_weight_for_age_percent_of_children_under_5
+    wsVal = wastingPlotData.Prevalence_of_wasting_weight_for_height_percent_of_children_under_5
+    stVal = stuntingPlotData.Prevalence_of_stunting_height_for_age_percent_of_children_under_5
+
+    #Set up plots for crop yield graph
+    axs[0].scatter(cYear, cVal, color = '#0033ff')
+    axs[0].plot(cYear, cVal, color = '#fca000')
+
+    axs[0].set_ylabel("Amount in Metric Tonnes")
+    axs[0].margins(0.1, 0.1)
+
+    #Set up plots for global hunger graph
+    axs[1].scatter(ghYear, ghVal, color = '#0033ff', label = 'Hunger Index')
+    axs[1].scatter(unYear, unVal, color = '#fca000', label = 'Children underweight')
+    axs[1].scatter(wsYear, wsVal, color = '#02d63e', label = 'Wasting weight for height')
+    axs[1].scatter(stYear, stVal, color = '#de0404', label = 'Stunting height for age')
+    axs[1].plot(ghYear, ghVal, color = '#0033ff')
+    axs[1].plot(unYear, unVal, color = '#fca000')
+    axs[1].plot(wsYear, wsVal, color = '#02d63e')
+    axs[1].plot(stYear, stVal, color = '#de0404')
+
+    legend = axs[1].legend(loc = 'best', shadow = False, fontsize = 9, facecolor = '#bfc3c0')
+    legend.get_frame()
+    axs[1].set_ylabel("Percentage of Population")
+    axs[1].margins(0.1, 0.1)
+
+    #Set up Figure Attributes
+    fig.suptitle(figTitle)
+    fig.supxlabel("Year")
+    fig.align_ylabels()
+    fig.canvas.manager.set_window_title(figTitle)
+
     plt.show()
