@@ -1,4 +1,4 @@
-from cropYieldProject_Data import readData, getDataForPlot, getMetricDataForPlot
+from cropYieldProject_Data import readData, getHungerDataForPlot, getMetricDataForPlot, getWorldHungerDataForPlot
 from cropYieldProject_Plot import buildPlot
 
 
@@ -12,12 +12,14 @@ under5StuntingData = readData("SOURCE_DATA/children_under_5_stunting.csv")
 plCrop = "RICE"
 plCountry = "ARG"
 
-#Call function to filter plot data
+#Call function to filter plot data with country parameter
 cropPlotData = getMetricDataForPlot(prodData, plCountry, plCrop)
-ghiPlotData = getDataForPlot(ghiData, plCountry)
-underPlotData = getDataForPlot(underweightData, plCountry)
-wastingPlotData = getDataForPlot(heightWastingData, plCountry)
-stuntingPlotData = getDataForPlot(under5StuntingData, plCountry)
+ghiPlotData = getHungerDataForPlot(ghiData, plCountry)
+underPlotData = getHungerDataForPlot(underweightData, plCountry)
+wastingPlotData = getHungerDataForPlot(heightWastingData, plCountry)
+stuntingPlotData = getHungerDataForPlot(under5StuntingData, plCountry)
 
+#NOT WORKING
+#getWorldHungerDataForPlot(ghiData)
 
 buildPlot(cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, plCountry, plCrop)
