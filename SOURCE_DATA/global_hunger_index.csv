@@ -1,472 +1,472 @@
-Entity,Code,Year,Global_Hunger_Index_2021,411773-annotations
-Afghanistan,AFG,2000,50.9,
-Afghanistan,AFG,2006,42.7,
-Afghanistan,AFG,2012,34.3,
-Afghanistan,AFG,2021,28.3,
-Albania,ALB,2000,20.7,
-Albania,ALB,2006,15.9,
-Albania,ALB,2012,8.8,
-Albania,ALB,2021,6.2,
-Algeria,DZA,2000,14.5,
-Algeria,DZA,2006,11.7,
-Algeria,DZA,2012,8.9,
-Algeria,DZA,2021,6.9,
-Angola,AGO,2000,65,
-Angola,AGO,2006,46.9,
-Angola,AGO,2012,27.8,
-Angola,AGO,2021,26,
-Argentina,ARG,2000,6.4,
-Argentina,ARG,2006,5.6,
-Argentina,ARG,2012,5.2,
-Argentina,ARG,2021,5.3,
-Armenia,ARM,2000,19.3,
-Armenia,ARM,2006,13.3,
-Armenia,ARM,2012,10.4,
-Armenia,ARM,2021,7.2,
-Azerbaijan,AZE,2000,25,
-Azerbaijan,AZE,2006,15.9,
-Azerbaijan,AZE,2012,10.6,
-Azerbaijan,AZE,2021,7.5,
-Bangladesh,BGD,2000,34,
-Bangladesh,BGD,2006,28.9,
-Bangladesh,BGD,2012,28.6,
-Bangladesh,BGD,2021,19.1,
-Belarus,BLR,2000,2.5,
-Belarus,BLR,2006,2.5,
-Belarus,BLR,2012,2.5,
-Belarus,BLR,2021,2.5,
-Benin,BEN,2000,34,
-Benin,BEN,2006,27.7,
-Benin,BEN,2012,24,
-Benin,BEN,2021,22.2,
-Bolivia,BOL,2000,27.7,
-Bolivia,BOL,2006,23.3,
-Bolivia,BOL,2012,15.6,
-Bolivia,BOL,2021,12.7,
-Bosnia and Herzegovina,BIH,2000,9.3,
-Bosnia and Herzegovina,BIH,2006,6.7,
-Bosnia and Herzegovina,BIH,2012,2.5,
-Bosnia and Herzegovina,BIH,2021,2.5,
-Botswana,BWA,2000,26.7,
-Botswana,BWA,2006,26.2,
-Botswana,BWA,2012,24.3,
-Botswana,BWA,2021,23.2,
-Brazil,BRA,2000,11.5,
-Brazil,BRA,2006,7.4,
-Brazil,BRA,2012,5.5,
-Brazil,BRA,2021,2.5,
-Bulgaria,BGR,2000,8.6,
-Bulgaria,BGR,2006,8.1,
-Bulgaria,BGR,2012,7.8,
-Bulgaria,BGR,2021,6.1,
-Burkina Faso,BFA,2000,44.9,
-Burkina Faso,BFA,2006,35.8,
-Burkina Faso,BFA,2012,29.7,
-Burkina Faso,BFA,2021,24.5,
-Burundi,BDI,2021,42.5,Value represents the mid-point of its group in the GHI severity scale
-Cambodia,KHM,2000,41.1,
-Cambodia,KHM,2006,27.1,
-Cambodia,KHM,2012,24.2,
-Cambodia,KHM,2021,17,
-Cameroon,CMR,2000,35.7,
-Cameroon,CMR,2006,30.9,
-Cameroon,CMR,2012,23.1,
-Cameroon,CMR,2021,18.6,
-Cape Verde,CPV,2000,15.4,
-Cape Verde,CPV,2006,11.9,
-Cape Verde,CPV,2012,12.3,
-Cape Verde,CPV,2021,10.8,
-Central African Republic,CAF,2000,48.9,
-Central African Republic,CAF,2006,48,
-Central African Republic,CAF,2012,40.5,
-Central African Republic,CAF,2021,43,
-Chad,TCD,2000,50.8,
-Chad,TCD,2006,51.2,
-Chad,TCD,2012,45.7,
-Chad,TCD,2021,39.6,
-Chile,CHL,2000,2.5,
-Chile,CHL,2006,2.5,
-Chile,CHL,2012,2.5,
-Chile,CHL,2021,2.5,
-China,CHN,2000,13.3,
-China,CHN,2006,9,
-China,CHN,2012,2.5,
-China,CHN,2021,2.5,
-Colombia,COL,2000,10.9,
-Colombia,COL,2006,11.4,
-Colombia,COL,2012,9.3,
-Colombia,COL,2021,8.9,
-Comoros,COM,2021,42.5,Value represents the mid-point of its group in the GHI severity scale
-Congo,COG,2000,34.9,
-Congo,COG,2006,34.6,
-Congo,COG,2012,28.5,
-Congo,COG,2021,30.3,
-Costa Rica,CRI,2000,7,
-Costa Rica,CRI,2006,5.5,
-Costa Rica,CRI,2012,2.5,
-Costa Rica,CRI,2021,5.3,
-Cote d'Ivoire,CIV,2000,33.3,
-Cote d'Ivoire,CIV,2006,37.1,
-Cote d'Ivoire,CIV,2012,30,
-Cote d'Ivoire,CIV,2021,22.3,
-Croatia,HRV,2000,2.5,
-Croatia,HRV,2006,2.5,
-Croatia,HRV,2012,2.5,
-Croatia,HRV,2021,2.5,
-Cuba,CUB,2000,2.5,
-Cuba,CUB,2006,2.5,
-Cuba,CUB,2012,2.5,
-Cuba,CUB,2021,2.5,
-Democratic Republic of Congo,COD,2000,50.6,
-Democratic Republic of Congo,COD,2006,45.3,
-Democratic Republic of Congo,COD,2012,42.3,
-Democratic Republic of Congo,COD,2021,39,
-Djibouti,DJI,2000,44.3,
-Djibouti,DJI,2006,36.9,
-Djibouti,DJI,2012,35.4,
-Djibouti,DJI,2021,27.4,
-Dominican Republic,DOM,2000,15.1,
-Dominican Republic,DOM,2006,13.2,
-Dominican Republic,DOM,2012,10.2,
-Dominican Republic,DOM,2021,8,
-Ecuador,ECU,2000,19.7,
-Ecuador,ECU,2006,18.9,
-Ecuador,ECU,2012,12.8,
-Ecuador,ECU,2021,14,
-Egypt,EGY,2000,16.3,
-Egypt,EGY,2006,14.4,
-Egypt,EGY,2012,15.2,
-Egypt,EGY,2021,12.5,
-El Salvador,SLV,2000,14.7,
-El Salvador,SLV,2006,12,
-El Salvador,SLV,2012,10.4,
-El Salvador,SLV,2021,8.9,
-Estonia,EST,2000,2.5,
-Estonia,EST,2006,2.5,
-Estonia,EST,2012,2.5,
-Estonia,EST,2021,2.5,
-Eswatini,SWZ,2000,24.5,
-Eswatini,SWZ,2006,23.2,
-Eswatini,SWZ,2012,21.8,
-Eswatini,SWZ,2021,17,
-Ethiopia,ETH,2000,53.5,
-Ethiopia,ETH,2006,43.4,
-Ethiopia,ETH,2012,33.5,
-Ethiopia,ETH,2021,24.1,
-Fiji,FJI,2000,9.6,
-Fiji,FJI,2006,9,
-Fiji,FJI,2012,8.1,
-Fiji,FJI,2021,8.6,
-Gabon,GAB,2000,21,
-Gabon,GAB,2006,20.2,
-Gabon,GAB,2012,18.6,
-Gabon,GAB,2021,16.6,
-Gambia,GMB,2000,29,
-Gambia,GMB,2006,27.5,
-Gambia,GMB,2012,22.1,
-Gambia,GMB,2021,17.6,
-Georgia,GEO,2000,12.3,
-Georgia,GEO,2006,8.8,
-Georgia,GEO,2012,2.5,
-Georgia,GEO,2021,6.3,
-Ghana,GHA,2000,28.4,
-Ghana,GHA,2006,22,
-Ghana,GHA,2012,17.9,
-Ghana,GHA,2021,14.9,
-Guatemala,GTM,2000,28.4,
-Guatemala,GTM,2006,24.6,
-Guatemala,GTM,2012,22,
-Guatemala,GTM,2021,19.6,
-Guinea,GIN,2021,27.5,Value represents the mid-point of its group in the GHI severity scale
-Guinea-Bissau,GNB,2021,27.5,Value represents the mid-point of its group in the GHI severity scale
-Guyana,GUY,2000,17.1,
-Guyana,GUY,2006,15.6,
-Guyana,GUY,2012,12.1,
-Guyana,GUY,2021,10.7,
-Haiti,HTI,2000,42,
-Haiti,HTI,2006,43.6,
-Haiti,HTI,2012,35.2,
-Haiti,HTI,2021,32.8,
-Honduras,HND,2000,21.8,
-Honduras,HND,2006,19.6,
-Honduras,HND,2012,13.8,
-Honduras,HND,2021,12.8,
-India,IND,2000,38.8,
-India,IND,2006,37.4,
-India,IND,2012,28.8,
-India,IND,2021,27.5,
-Indonesia,IDN,2000,26.1,
-Indonesia,IDN,2006,29.5,
-Indonesia,IDN,2012,23,
-Indonesia,IDN,2021,18,
-Iran,IRN,2000,13.5,
-Iran,IRN,2006,8.9,
-Iran,IRN,2012,8.1,
-Iran,IRN,2021,7.7,
-Iraq,IRQ,2000,23.9,
-Iraq,IRQ,2006,23.9,
-Iraq,IRQ,2012,27.5,
-Iraq,IRQ,2021,22.8,
-Jamaica,JAM,2000,8.6,
-Jamaica,JAM,2006,9,
-Jamaica,JAM,2012,9.1,
-Jamaica,JAM,2021,8.6,
-Jordan,JOR,2000,10.8,
-Jordan,JOR,2006,8.1,
-Jordan,JOR,2012,8.5,
-Jordan,JOR,2021,8.3,
-Kazakhstan,KAZ,2000,11.2,
-Kazakhstan,KAZ,2006,12.3,
-Kazakhstan,KAZ,2012,8.1,
-Kazakhstan,KAZ,2021,6.4,
-Kenya,KEN,2000,36.7,
-Kenya,KEN,2006,31.2,
-Kenya,KEN,2012,25.4,
-Kenya,KEN,2021,23,
-Kuwait,KWT,2000,2.5,
-Kuwait,KWT,2006,2.5,
-Kuwait,KWT,2012,2.5,
-Kuwait,KWT,2021,2.5,
-Kyrgyzstan,KGZ,2000,18.3,
-Kyrgyzstan,KGZ,2006,13.9,
-Kyrgyzstan,KGZ,2012,11.7,
-Kyrgyzstan,KGZ,2021,8.6,
-Laos,LAO,2000,44.1,
-Laos,LAO,2006,31.9,
-Laos,LAO,2012,25.7,
-Laos,LAO,2021,19.5,
-Latvia,LVA,2000,5.5,
-Latvia,LVA,2006,2.5,
-Latvia,LVA,2012,2.5,
-Latvia,LVA,2021,2.5,
-Lebanon,LBN,2000,11.6,
-Lebanon,LBN,2006,13.2,
-Lebanon,LBN,2012,12.3,
-Lebanon,LBN,2021,9.7,
-Lesotho,LSO,2000,32.5,
-Lesotho,LSO,2006,29.6,
-Lesotho,LSO,2012,24.6,
-Lesotho,LSO,2021,27.4,
-Liberia,LBR,2000,48.1,
-Liberia,LBR,2006,40,
-Liberia,LBR,2012,35,
-Liberia,LBR,2021,33.3,
-Lithuania,LTU,2000,2.5,
-Lithuania,LTU,2006,2.5,
-Lithuania,LTU,2012,2.5,
-Lithuania,LTU,2021,2.5,
-Madagascar,MDG,2000,42.8,
-Madagascar,MDG,2006,41.6,
-Madagascar,MDG,2012,34.3,
-Madagascar,MDG,2021,36.3,
-Malawi,MWI,2000,43.1,
-Malawi,MWI,2006,33.5,
-Malawi,MWI,2012,26.2,
-Malawi,MWI,2021,21.3,
-Malaysia,MYS,2000,15.4,
-Malaysia,MYS,2006,13.7,
-Malaysia,MYS,2012,12.4,
-Malaysia,MYS,2021,12.8,
-Mali,MLI,2000,41.7,
-Mali,MLI,2006,36.8,
-Mali,MLI,2012,24.8,
-Mali,MLI,2021,24.7,
-Mauritania,MRT,2000,31.9,
-Mauritania,MRT,2006,28.9,
-Mauritania,MRT,2012,23.6,
-Mauritania,MRT,2021,22.6,
-Mauritius,MUS,2000,15.2,
-Mauritius,MUS,2006,14,
-Mauritius,MUS,2012,13,
-Mauritius,MUS,2021,12.2,
-Mexico,MEX,2000,10.2,
-Mexico,MEX,2006,8.6,
-Mexico,MEX,2012,7.8,
-Mexico,MEX,2021,8.5,
-Moldova,MDA,2021,5,Value represents the mid-point of its group in the GHI severity scale
-Mongolia,MNG,2000,30.2,
-Mongolia,MNG,2006,23.4,
-Mongolia,MNG,2012,12.8,
-Mongolia,MNG,2021,6.1,
-Montenegro,MNE,2006,6.5,
-Montenegro,MNE,2012,2.5,
-Montenegro,MNE,2021,2.5,
-Morocco,MAR,2000,15.5,
-Morocco,MAR,2006,17.5,
-Morocco,MAR,2012,9.6,
-Morocco,MAR,2021,8.8,
-Mozambique,MOZ,2000,48,
-Mozambique,MOZ,2006,38.2,
-Mozambique,MOZ,2012,31.5,
-Mozambique,MOZ,2021,31.3,
-Myanmar,MMR,2000,39.8,
-Myanmar,MMR,2006,31.6,
-Myanmar,MMR,2012,22.9,
-Myanmar,MMR,2021,17.5,
-Namibia,NAM,2000,25.3,
-Namibia,NAM,2006,25.8,
-Namibia,NAM,2012,26.6,
-Namibia,NAM,2021,20.2,
-Nepal,NPL,2000,37.4,
-Nepal,NPL,2006,30.9,
-Nepal,NPL,2012,23.1,
-Nepal,NPL,2021,19.1,
-Nicaragua,NIC,2000,22.3,
-Nicaragua,NIC,2006,17.4,
-Nicaragua,NIC,2012,14.9,
-Nicaragua,NIC,2021,14,
-Niger,NER,2021,27.5,Value represents the mid-point of its group in the GHI severity scale
-Nigeria,NGA,2000,39.5,
-Nigeria,NGA,2006,32.5,
-Nigeria,NGA,2012,30.4,
-Nigeria,NGA,2021,28.3,
-North Korea,PRK,2000,39.5,
-North Korea,PRK,2006,33.1,
-North Korea,PRK,2012,29.1,
-North Korea,PRK,2021,25.2,
-North Macedonia,MKD,2000,7.5,
-North Macedonia,MKD,2006,7.7,
-North Macedonia,MKD,2012,2.5,
-North Macedonia,MKD,2021,2.5,
-Oman,OMN,2000,14.7,
-Oman,OMN,2006,13.8,
-Oman,OMN,2012,11.6,
-Oman,OMN,2021,12.3,
-Pakistan,PAK,2000,36.7,
-Pakistan,PAK,2006,33.1,
-Pakistan,PAK,2012,32.1,
-Pakistan,PAK,2021,24.7,
-Panama,PAN,2000,18.7,
-Panama,PAN,2006,15,
-Panama,PAN,2012,10.1,
-Panama,PAN,2021,8.9,
-Papua New Guinea,PNG,2000,33.6,
-Papua New Guinea,PNG,2006,30.3,
-Papua New Guinea,PNG,2012,33.7,
-Papua New Guinea,PNG,2021,27.8,
-Paraguay,PRY,2000,11.7,
-Paraguay,PRY,2006,11.6,
-Paraguay,PRY,2012,9.5,
-Paraguay,PRY,2021,7.5,
-Peru,PER,2000,20.6,
-Peru,PER,2006,16.4,
-Peru,PER,2012,9.2,
-Peru,PER,2021,8,
-Philippines,PHL,2000,25,
-Philippines,PHL,2006,20.4,
-Philippines,PHL,2012,20.5,
-Philippines,PHL,2021,16.8,
-Romania,ROU,2000,7.9,
-Romania,ROU,2006,5.9,
-Romania,ROU,2012,5,
-Romania,ROU,2021,2.5,
-Russia,RUS,2000,10.1,
-Russia,RUS,2006,7.1,
-Russia,RUS,2012,6.4,
-Russia,RUS,2021,6.2,
-Rwanda,RWA,2000,49.3,
-Rwanda,RWA,2006,38.3,
-Rwanda,RWA,2012,31,
-Rwanda,RWA,2021,26.4,
-Saudi Arabia,SAU,2000,11,
-Saudi Arabia,SAU,2006,12.1,
-Saudi Arabia,SAU,2012,8.2,
-Saudi Arabia,SAU,2021,6.8,
-Senegal,SEN,2000,34,
-Senegal,SEN,2006,24.1,
-Senegal,SEN,2012,19.2,
-Senegal,SEN,2021,16.3,
-Serbia,SRB,2006,6.1,
-Serbia,SRB,2012,5.3,
-Serbia,SRB,2021,2.5,
-Sierra Leone,SLE,2000,57.7,
-Sierra Leone,SLE,2006,52.7,
-Sierra Leone,SLE,2012,34.7,
-Sierra Leone,SLE,2021,31.3,
-Slovakia,SVK,2000,6,
-Slovakia,SVK,2006,5.3,
-Slovakia,SVK,2012,2.5,
-Slovakia,SVK,2021,2.5,
-Solomon Islands,SLB,2000,20,
-Solomon Islands,SLB,2006,18.2,
-Solomon Islands,SLB,2012,20.2,
-Solomon Islands,SLB,2021,18.8,
-Somalia,SOM,2000,58.1,
-Somalia,SOM,2006,57.9,
-Somalia,SOM,2012,65.1,
-Somalia,SOM,2021,50.8,
-South Africa,ZAF,2000,18.1,
-South Africa,ZAF,2006,17.6,
-South Africa,ZAF,2012,12.7,
-South Africa,ZAF,2021,12.9,
-South Sudan,SSD,2021,42.5,Value represents the mid-point of its group in the GHI severity scale
-Sri Lanka,LKA,2000,21.9,
-Sri Lanka,LKA,2006,20,
-Sri Lanka,LKA,2012,20.6,
-Sri Lanka,LKA,2021,16,
-Sudan,SDN,2012,29.8,
-Sudan,SDN,2021,25.1,
-Suriname,SUR,2000,15.1,
-Suriname,SUR,2006,11.4,
-Suriname,SUR,2012,10.4,
-Suriname,SUR,2021,10.4,
-Syria,SYR,2021,42.5,Value represents the mid-point of its group in the GHI severity scale
-Tajikistan,TJK,2021,15,Value represents the mid-point of its group in the GHI severity scale
-Tanzania,TZA,2000,40.6,
-Tanzania,TZA,2006,33.6,
-Tanzania,TZA,2012,29.1,
-Tanzania,TZA,2021,24.7,
-Thailand,THA,2000,18.5,
-Thailand,THA,2006,12.3,
-Thailand,THA,2012,12.4,
-Thailand,THA,2021,11.7,
-Timor,TLS,2006,46.1,
-Timor,TLS,2012,36.2,
-Timor,TLS,2021,32.4,
-Togo,TGO,2000,39.1,
-Togo,TGO,2006,36.5,
-Togo,TGO,2012,25.3,
-Togo,TGO,2021,23.7,
-Trinidad and Tobago,TTO,2000,11,
-Trinidad and Tobago,TTO,2006,11.3,
-Trinidad and Tobago,TTO,2012,10.8,
-Trinidad and Tobago,TTO,2021,8.9,
-Tunisia,TUN,2000,10.3,
-Tunisia,TUN,2006,7.8,
-Tunisia,TUN,2012,7,
-Tunisia,TUN,2021,6,
-Turkey,TUR,2000,10.2,
-Turkey,TUR,2006,6.5,
-Turkey,TUR,2012,5,
-Turkey,TUR,2021,2.5,
-Turkmenistan,TKM,2000,20.1,
-Turkmenistan,TKM,2006,14.8,
-Turkmenistan,TKM,2012,11.9,
-Turkmenistan,TKM,2021,9.7,
-Uganda,UGA,2021,27.5,Value represents the mid-point of its group in the GHI severity scale
-Ukraine,UKR,2000,13,
-Ukraine,UKR,2006,7.1,
-Ukraine,UKR,2012,6.9,
-Ukraine,UKR,2021,6.8,
-Uruguay,URY,2000,7.4,
-Uruguay,URY,2006,6.7,
-Uruguay,URY,2012,5,
-Uruguay,URY,2021,2.5,
-Uzbekistan,UZB,2000,24.3,
-Uzbekistan,UZB,2006,16.6,
-Uzbekistan,UZB,2012,9.5,
-Uzbekistan,UZB,2021,5.9,
-Venezuela,VEN,2000,14.6,
-Venezuela,VEN,2006,11.2,
-Venezuela,VEN,2012,7.4,
-Venezuela,VEN,2021,22.2,
-Vietnam,VNM,2000,26.3,
-Vietnam,VNM,2006,21.8,
-Vietnam,VNM,2012,16,
-Vietnam,VNM,2021,13.6,
-Yemen,YEM,2000,41,
-Yemen,YEM,2006,38.8,
-Yemen,YEM,2012,38.4,
-Yemen,YEM,2021,45.1,
-Zambia,ZMB,2021,27.5,Value represents the mid-point of its group in the GHI severity scale
-Zimbabwe,ZWE,2021,27.5,Value represents the mid-point of its group in the GHI severity scale
+Index,Entity,Code,Year,Global_Hunger_Index_2021
+0,Afghanistan,AFG,2000,50.9
+1,Afghanistan,AFG,2006,42.7
+2,Afghanistan,AFG,2012,34.3
+3,Afghanistan,AFG,2021,28.3
+4,Albania,ALB,2000,20.7
+5,Albania,ALB,2006,15.9
+6,Albania,ALB,2012,8.8
+7,Albania,ALB,2021,6.2
+8,Algeria,DZA,2000,14.5
+9,Algeria,DZA,2006,11.7
+10,Algeria,DZA,2012,8.9
+11,Algeria,DZA,2021,6.9
+12,Angola,AGO,2000,65
+13,Angola,AGO,2006,46.9
+14,Angola,AGO,2012,27.8
+15,Angola,AGO,2021,26
+16,Argentina,ARG,2000,6.4
+17,Argentina,ARG,2006,5.6
+18,Argentina,ARG,2012,5.2
+19,Argentina,ARG,2021,5.3
+20,Armenia,ARM,2000,19.3
+21,Armenia,ARM,2006,13.3
+22,Armenia,ARM,2012,10.4
+23,Armenia,ARM,2021,7.2
+24,Azerbaijan,AZE,2000,25
+25,Azerbaijan,AZE,2006,15.9
+26,Azerbaijan,AZE,2012,10.6
+27,Azerbaijan,AZE,2021,7.5
+28,Bangladesh,BGD,2000,34
+29,Bangladesh,BGD,2006,28.9
+30,Bangladesh,BGD,2012,28.6
+31,Bangladesh,BGD,2021,19.1
+32,Belarus,BLR,2000,2.5
+33,Belarus,BLR,2006,2.5
+34,Belarus,BLR,2012,2.5
+35,Belarus,BLR,2021,2.5
+36,Benin,BEN,2000,34
+37,Benin,BEN,2006,27.7
+38,Benin,BEN,2012,24
+39,Benin,BEN,2021,22.2
+40,Bolivia,BOL,2000,27.7
+41,Bolivia,BOL,2006,23.3
+42,Bolivia,BOL,2012,15.6
+43,Bolivia,BOL,2021,12.7
+44,Bosnia and Herzegovina,BIH,2000,9.3
+45,Bosnia and Herzegovina,BIH,2006,6.7
+46,Bosnia and Herzegovina,BIH,2012,2.5
+47,Bosnia and Herzegovina,BIH,2021,2.5
+48,Botswana,BWA,2000,26.7
+49,Botswana,BWA,2006,26.2
+50,Botswana,BWA,2012,24.3
+51,Botswana,BWA,2021,23.2
+52,Brazil,BRA,2000,11.5
+53,Brazil,BRA,2006,7.4
+54,Brazil,BRA,2012,5.5
+55,Brazil,BRA,2021,2.5
+56,Bulgaria,BGR,2000,8.6
+57,Bulgaria,BGR,2006,8.1
+58,Bulgaria,BGR,2012,7.8
+59,Bulgaria,BGR,2021,6.1
+60,Burkina Faso,BFA,2000,44.9
+61,Burkina Faso,BFA,2006,35.8
+62,Burkina Faso,BFA,2012,29.7
+63,Burkina Faso,BFA,2021,24.5
+64,Burundi,BDI,2021,42.5
+65,Cambodia,KHM,2000,41.1
+66,Cambodia,KHM,2006,27.1
+67,Cambodia,KHM,2012,24.2
+68,Cambodia,KHM,2021,17
+69,Cameroon,CMR,2000,35.7
+70,Cameroon,CMR,2006,30.9
+71,Cameroon,CMR,2012,23.1
+72,Cameroon,CMR,2021,18.6
+73,Cape Verde,CPV,2000,15.4
+74,Cape Verde,CPV,2006,11.9
+75,Cape Verde,CPV,2012,12.3
+76,Cape Verde,CPV,2021,10.8
+77,Central African Republic,CAF,2000,48.9
+78,Central African Republic,CAF,2006,48
+79,Central African Republic,CAF,2012,40.5
+80,Central African Republic,CAF,2021,43
+81,Chad,TCD,2000,50.8
+82,Chad,TCD,2006,51.2
+83,Chad,TCD,2012,45.7
+84,Chad,TCD,2021,39.6
+85,Chile,CHL,2000,2.5
+86,Chile,CHL,2006,2.5
+87,Chile,CHL,2012,2.5
+88,Chile,CHL,2021,2.5
+89,China,CHN,2000,13.3
+90,China,CHN,2006,9
+91,China,CHN,2012,2.5
+92,China,CHN,2021,2.5
+93,Colombia,COL,2000,10.9
+94,Colombia,COL,2006,11.4
+95,Colombia,COL,2012,9.3
+96,Colombia,COL,2021,8.9
+97,Comoros,COM,2021,42.5
+98,Congo,COG,2000,34.9
+99,Congo,COG,2006,34.6
+100,Congo,COG,2012,28.5
+101,Congo,COG,2021,30.3
+102,Costa Rica,CRI,2000,7
+103,Costa Rica,CRI,2006,5.5
+104,Costa Rica,CRI,2012,2.5
+105,Costa Rica,CRI,2021,5.3
+106,Cote d'Ivoire,CIV,2000,33.3
+107,Cote d'Ivoire,CIV,2006,37.1
+108,Cote d'Ivoire,CIV,2012,30
+109,Cote d'Ivoire,CIV,2021,22.3
+110,Croatia,HRV,2000,2.5
+111,Croatia,HRV,2006,2.5
+112,Croatia,HRV,2012,2.5
+113,Croatia,HRV,2021,2.5
+114,Cuba,CUB,2000,2.5
+115,Cuba,CUB,2006,2.5
+116,Cuba,CUB,2012,2.5
+117,Cuba,CUB,2021,2.5
+118,Democratic Republic of Congo,COD,2000,50.6
+119,Democratic Republic of Congo,COD,2006,45.3
+120,Democratic Republic of Congo,COD,2012,42.3
+121,Democratic Republic of Congo,COD,2021,39
+122,Djibouti,DJI,2000,44.3
+123,Djibouti,DJI,2006,36.9
+124,Djibouti,DJI,2012,35.4
+125,Djibouti,DJI,2021,27.4
+126,Dominican Republic,DOM,2000,15.1
+127,Dominican Republic,DOM,2006,13.2
+128,Dominican Republic,DOM,2012,10.2
+129,Dominican Republic,DOM,2021,8
+130,Ecuador,ECU,2000,19.7
+131,Ecuador,ECU,2006,18.9
+132,Ecuador,ECU,2012,12.8
+133,Ecuador,ECU,2021,14
+134,Egypt,EGY,2000,16.3
+135,Egypt,EGY,2006,14.4
+136,Egypt,EGY,2012,15.2
+137,Egypt,EGY,2021,12.5
+138,El Salvador,SLV,2000,14.7
+139,El Salvador,SLV,2006,12
+140,El Salvador,SLV,2012,10.4
+141,El Salvador,SLV,2021,8.9
+142,Estonia,EST,2000,2.5
+143,Estonia,EST,2006,2.5
+144,Estonia,EST,2012,2.5
+145,Estonia,EST,2021,2.5
+146,Eswatini,SWZ,2000,24.5
+147,Eswatini,SWZ,2006,23.2
+148,Eswatini,SWZ,2012,21.8
+149,Eswatini,SWZ,2021,17
+150,Ethiopia,ETH,2000,53.5
+151,Ethiopia,ETH,2006,43.4
+152,Ethiopia,ETH,2012,33.5
+153,Ethiopia,ETH,2021,24.1
+154,Fiji,FJI,2000,9.6
+155,Fiji,FJI,2006,9
+156,Fiji,FJI,2012,8.1
+157,Fiji,FJI,2021,8.6
+158,Gabon,GAB,2000,21
+159,Gabon,GAB,2006,20.2
+160,Gabon,GAB,2012,18.6
+161,Gabon,GAB,2021,16.6
+162,Gambia,GMB,2000,29
+163,Gambia,GMB,2006,27.5
+164,Gambia,GMB,2012,22.1
+165,Gambia,GMB,2021,17.6
+166,Georgia,GEO,2000,12.3
+167,Georgia,GEO,2006,8.8
+168,Georgia,GEO,2012,2.5
+169,Georgia,GEO,2021,6.3
+170,Ghana,GHA,2000,28.4
+171,Ghana,GHA,2006,22
+172,Ghana,GHA,2012,17.9
+173,Ghana,GHA,2021,14.9
+174,Guatemala,GTM,2000,28.4
+175,Guatemala,GTM,2006,24.6
+176,Guatemala,GTM,2012,22
+177,Guatemala,GTM,2021,19.6
+178,Guinea,GIN,2021,27.5
+179,Guinea-Bissau,GNB,2021,27.5
+180,Guyana,GUY,2000,17.1
+181,Guyana,GUY,2006,15.6
+182,Guyana,GUY,2012,12.1
+183,Guyana,GUY,2021,10.7
+184,Haiti,HTI,2000,42
+185,Haiti,HTI,2006,43.6
+186,Haiti,HTI,2012,35.2
+187,Haiti,HTI,2021,32.8
+188,Honduras,HND,2000,21.8
+189,Honduras,HND,2006,19.6
+190,Honduras,HND,2012,13.8
+191,Honduras,HND,2021,12.8
+192,India,IND,2000,38.8
+193,India,IND,2006,37.4
+194,India,IND,2012,28.8
+195,India,IND,2021,27.5
+196,Indonesia,IDN,2000,26.1
+197,Indonesia,IDN,2006,29.5
+198,Indonesia,IDN,2012,23
+199,Indonesia,IDN,2021,18
+200,Iran,IRN,2000,13.5
+201,Iran,IRN,2006,8.9
+202,Iran,IRN,2012,8.1
+203,Iran,IRN,2021,7.7
+204,Iraq,IRQ,2000,23.9
+205,Iraq,IRQ,2006,23.9
+206,Iraq,IRQ,2012,27.5
+207,Iraq,IRQ,2021,22.8
+208,Jamaica,JAM,2000,8.6
+209,Jamaica,JAM,2006,9
+210,Jamaica,JAM,2012,9.1
+211,Jamaica,JAM,2021,8.6
+212,Jordan,JOR,2000,10.8
+213,Jordan,JOR,2006,8.1
+214,Jordan,JOR,2012,8.5
+215,Jordan,JOR,2021,8.3
+216,Kazakhstan,KAZ,2000,11.2
+217,Kazakhstan,KAZ,2006,12.3
+218,Kazakhstan,KAZ,2012,8.1
+219,Kazakhstan,KAZ,2021,6.4
+220,Kenya,KEN,2000,36.7
+221,Kenya,KEN,2006,31.2
+222,Kenya,KEN,2012,25.4
+223,Kenya,KEN,2021,23
+224,Kuwait,KWT,2000,2.5
+225,Kuwait,KWT,2006,2.5
+226,Kuwait,KWT,2012,2.5
+227,Kuwait,KWT,2021,2.5
+228,Kyrgyzstan,KGZ,2000,18.3
+229,Kyrgyzstan,KGZ,2006,13.9
+230,Kyrgyzstan,KGZ,2012,11.7
+231,Kyrgyzstan,KGZ,2021,8.6
+232,Laos,LAO,2000,44.1
+233,Laos,LAO,2006,31.9
+234,Laos,LAO,2012,25.7
+235,Laos,LAO,2021,19.5
+236,Latvia,LVA,2000,5.5
+237,Latvia,LVA,2006,2.5
+238,Latvia,LVA,2012,2.5
+239,Latvia,LVA,2021,2.5
+240,Lebanon,LBN,2000,11.6
+241,Lebanon,LBN,2006,13.2
+242,Lebanon,LBN,2012,12.3
+243,Lebanon,LBN,2021,9.7
+244,Lesotho,LSO,2000,32.5
+245,Lesotho,LSO,2006,29.6
+246,Lesotho,LSO,2012,24.6
+247,Lesotho,LSO,2021,27.4
+248,Liberia,LBR,2000,48.1
+249,Liberia,LBR,2006,40
+250,Liberia,LBR,2012,35
+251,Liberia,LBR,2021,33.3
+252,Lithuania,LTU,2000,2.5
+253,Lithuania,LTU,2006,2.5
+254,Lithuania,LTU,2012,2.5
+255,Lithuania,LTU,2021,2.5
+256,Madagascar,MDG,2000,42.8
+257,Madagascar,MDG,2006,41.6
+258,Madagascar,MDG,2012,34.3
+259,Madagascar,MDG,2021,36.3
+260,Malawi,MWI,2000,43.1
+261,Malawi,MWI,2006,33.5
+262,Malawi,MWI,2012,26.2
+263,Malawi,MWI,2021,21.3
+264,Malaysia,MYS,2000,15.4
+265,Malaysia,MYS,2006,13.7
+266,Malaysia,MYS,2012,12.4
+267,Malaysia,MYS,2021,12.8
+268,Mali,MLI,2000,41.7
+269,Mali,MLI,2006,36.8
+270,Mali,MLI,2012,24.8
+271,Mali,MLI,2021,24.7
+272,Mauritania,MRT,2000,31.9
+273,Mauritania,MRT,2006,28.9
+274,Mauritania,MRT,2012,23.6
+275,Mauritania,MRT,2021,22.6
+276,Mauritius,MUS,2000,15.2
+277,Mauritius,MUS,2006,14
+278,Mauritius,MUS,2012,13
+279,Mauritius,MUS,2021,12.2
+280,Mexico,MEX,2000,10.2
+281,Mexico,MEX,2006,8.6
+282,Mexico,MEX,2012,7.8
+283,Mexico,MEX,2021,8.5
+284,Moldova,MDA,2021,5
+285,Mongolia,MNG,2000,30.2
+286,Mongolia,MNG,2006,23.4
+287,Mongolia,MNG,2012,12.8
+288,Mongolia,MNG,2021,6.1
+289,Montenegro,MNE,2006,6.5
+290,Montenegro,MNE,2012,2.5
+291,Montenegro,MNE,2021,2.5
+292,Morocco,MAR,2000,15.5
+293,Morocco,MAR,2006,17.5
+294,Morocco,MAR,2012,9.6
+295,Morocco,MAR,2021,8.8
+296,Mozambique,MOZ,2000,48
+297,Mozambique,MOZ,2006,38.2
+298,Mozambique,MOZ,2012,31.5
+299,Mozambique,MOZ,2021,31.3
+300,Myanmar,MMR,2000,39.8
+301,Myanmar,MMR,2006,31.6
+302,Myanmar,MMR,2012,22.9
+303,Myanmar,MMR,2021,17.5
+304,Namibia,NAM,2000,25.3
+305,Namibia,NAM,2006,25.8
+306,Namibia,NAM,2012,26.6
+307,Namibia,NAM,2021,20.2
+308,Nepal,NPL,2000,37.4
+309,Nepal,NPL,2006,30.9
+310,Nepal,NPL,2012,23.1
+311,Nepal,NPL,2021,19.1
+312,Nicaragua,NIC,2000,22.3
+313,Nicaragua,NIC,2006,17.4
+314,Nicaragua,NIC,2012,14.9
+315,Nicaragua,NIC,2021,14
+316,Niger,NER,2021,27.5
+317,Nigeria,NGA,2000,39.5
+318,Nigeria,NGA,2006,32.5
+319,Nigeria,NGA,2012,30.4
+320,Nigeria,NGA,2021,28.3
+321,North Korea,PRK,2000,39.5
+322,North Korea,PRK,2006,33.1
+323,North Korea,PRK,2012,29.1
+324,North Korea,PRK,2021,25.2
+325,North Macedonia,MKD,2000,7.5
+326,North Macedonia,MKD,2006,7.7
+327,North Macedonia,MKD,2012,2.5
+328,North Macedonia,MKD,2021,2.5
+329,Oman,OMN,2000,14.7
+330,Oman,OMN,2006,13.8
+331,Oman,OMN,2012,11.6
+332,Oman,OMN,2021,12.3
+333,Pakistan,PAK,2000,36.7
+334,Pakistan,PAK,2006,33.1
+335,Pakistan,PAK,2012,32.1
+336,Pakistan,PAK,2021,24.7
+337,Panama,PAN,2000,18.7
+338,Panama,PAN,2006,15
+339,Panama,PAN,2012,10.1
+340,Panama,PAN,2021,8.9
+341,Papua New Guinea,PNG,2000,33.6
+342,Papua New Guinea,PNG,2006,30.3
+343,Papua New Guinea,PNG,2012,33.7
+344,Papua New Guinea,PNG,2021,27.8
+345,Paraguay,PRY,2000,11.7
+346,Paraguay,PRY,2006,11.6
+347,Paraguay,PRY,2012,9.5
+348,Paraguay,PRY,2021,7.5
+349,Peru,PER,2000,20.6
+350,Peru,PER,2006,16.4
+351,Peru,PER,2012,9.2
+352,Peru,PER,2021,8
+353,Philippines,PHL,2000,25
+354,Philippines,PHL,2006,20.4
+355,Philippines,PHL,2012,20.5
+356,Philippines,PHL,2021,16.8
+357,Romania,ROU,2000,7.9
+358,Romania,ROU,2006,5.9
+359,Romania,ROU,2012,5
+360,Romania,ROU,2021,2.5
+361,Russia,RUS,2000,10.1
+362,Russia,RUS,2006,7.1
+363,Russia,RUS,2012,6.4
+364,Russia,RUS,2021,6.2
+365,Rwanda,RWA,2000,49.3
+366,Rwanda,RWA,2006,38.3
+367,Rwanda,RWA,2012,31
+368,Rwanda,RWA,2021,26.4
+369,Saudi Arabia,SAU,2000,11
+370,Saudi Arabia,SAU,2006,12.1
+371,Saudi Arabia,SAU,2012,8.2
+372,Saudi Arabia,SAU,2021,6.8
+373,Senegal,SEN,2000,34
+374,Senegal,SEN,2006,24.1
+375,Senegal,SEN,2012,19.2
+376,Senegal,SEN,2021,16.3
+377,Serbia,SRB,2006,6.1
+378,Serbia,SRB,2012,5.3
+379,Serbia,SRB,2021,2.5
+380,Sierra Leone,SLE,2000,57.7
+381,Sierra Leone,SLE,2006,52.7
+382,Sierra Leone,SLE,2012,34.7
+383,Sierra Leone,SLE,2021,31.3
+384,Slovakia,SVK,2000,6
+385,Slovakia,SVK,2006,5.3
+386,Slovakia,SVK,2012,2.5
+387,Slovakia,SVK,2021,2.5
+388,Solomon Islands,SLB,2000,20
+389,Solomon Islands,SLB,2006,18.2
+390,Solomon Islands,SLB,2012,20.2
+391,Solomon Islands,SLB,2021,18.8
+392,Somalia,SOM,2000,58.1
+393,Somalia,SOM,2006,57.9
+394,Somalia,SOM,2012,65.1
+395,Somalia,SOM,2021,50.8
+396,South Africa,ZAF,2000,18.1
+397,South Africa,ZAF,2006,17.6
+398,South Africa,ZAF,2012,12.7
+399,South Africa,ZAF,2021,12.9
+400,South Sudan,SSD,2021,42.5
+401,Sri Lanka,LKA,2000,21.9
+402,Sri Lanka,LKA,2006,20
+403,Sri Lanka,LKA,2012,20.6
+404,Sri Lanka,LKA,2021,16
+405,Sudan,SDN,2012,29.8
+406,Sudan,SDN,2021,25.1
+407,Suriname,SUR,2000,15.1
+408,Suriname,SUR,2006,11.4
+409,Suriname,SUR,2012,10.4
+410,Suriname,SUR,2021,10.4
+411,Syria,SYR,2021,42.5
+412,Tajikistan,TJK,2021,15
+413,Tanzania,TZA,2000,40.6
+414,Tanzania,TZA,2006,33.6
+415,Tanzania,TZA,2012,29.1
+416,Tanzania,TZA,2021,24.7
+417,Thailand,THA,2000,18.5
+418,Thailand,THA,2006,12.3
+419,Thailand,THA,2012,12.4
+420,Thailand,THA,2021,11.7
+421,Timor,TLS,2006,46.1
+422,Timor,TLS,2012,36.2
+423,Timor,TLS,2021,32.4
+424,Togo,TGO,2000,39.1
+425,Togo,TGO,2006,36.5
+426,Togo,TGO,2012,25.3
+427,Togo,TGO,2021,23.7
+428,Trinidad and Tobago,TTO,2000,11
+429,Trinidad and Tobago,TTO,2006,11.3
+430,Trinidad and Tobago,TTO,2012,10.8
+431,Trinidad and Tobago,TTO,2021,8.9
+432,Tunisia,TUN,2000,10.3
+433,Tunisia,TUN,2006,7.8
+434,Tunisia,TUN,2012,7
+435,Tunisia,TUN,2021,6
+436,Turkey,TUR,2000,10.2
+437,Turkey,TUR,2006,6.5
+438,Turkey,TUR,2012,5
+439,Turkey,TUR,2021,2.5
+440,Turkmenistan,TKM,2000,20.1
+441,Turkmenistan,TKM,2006,14.8
+442,Turkmenistan,TKM,2012,11.9
+443,Turkmenistan,TKM,2021,9.7
+444,Uganda,UGA,2021,27.5
+445,Ukraine,UKR,2000,13
+446,Ukraine,UKR,2006,7.1
+447,Ukraine,UKR,2012,6.9
+448,Ukraine,UKR,2021,6.8
+449,Uruguay,URY,2000,7.4
+450,Uruguay,URY,2006,6.7
+451,Uruguay,URY,2012,5
+452,Uruguay,URY,2021,2.5
+453,Uzbekistan,UZB,2000,24.3
+454,Uzbekistan,UZB,2006,16.6
+455,Uzbekistan,UZB,2012,9.5
+456,Uzbekistan,UZB,2021,5.9
+457,Venezuela,VEN,2000,14.6
+458,Venezuela,VEN,2006,11.2
+459,Venezuela,VEN,2012,7.4
+460,Venezuela,VEN,2021,22.2
+461,Vietnam,VNM,2000,26.3
+462,Vietnam,VNM,2006,21.8
+463,Vietnam,VNM,2012,16
+464,Vietnam,VNM,2021,13.6
+465,Yemen,YEM,2000,41
+466,Yemen,YEM,2006,38.8
+467,Yemen,YEM,2012,38.4
+468,Yemen,YEM,2021,45.1
+469,Zambia,ZMB,2021,27.5
+470,Zimbabwe,ZWE,2021,27.5

@@ -1,26 +1,35 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
-def buildPlot(cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, country, crop):
+def buildPlot(worldData, cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, country, crop):
     #Initialize plot parameters, figure, and axes
     plt.rcParams['toolbar'] = 'None'
     fig,axs = plt.subplots(2, layout = 'constrained')
-    figTitle = (crop.capitalize() + " Yield vs. Hunger Index in " + country)
+
+    if (crop.lower() == 'all' and country.lower() == 'all'):
+        figTitle = ('Crop Yield Average vs. Hunger Index Worldwide')
+    elif (crop.lower() == 'all'):
+        figTitle = ("Overall Crop Yield vs. Hunger Index in " + country)
+    elif (country.lower() == 'all'):
+        figTitle = (crop.capitalize() + " Yield vs. Hunger Index Worldwide")
+    else:
+        figTitle = (crop.capitalize() + " Yield vs. Hunger Index in " + country)
 
     #Pull data into local variables
-    cYear = cropPlotData.Year
-    ghYear = ghiPlotData.Year
-    unYear = underPlotData.Year
-    wsYear = wastingPlotData.Year
-    stYear = stuntingPlotData.Year
-    cVal = cropPlotData.Value
-    ghVal = ghiPlotData.Global_Hunger_Index_2021
-    unVal = underPlotData.Prevalence_of_underweight_weight_for_age_percent_of_children_under_5
-    wsVal = wastingPlotData.Prevalence_of_wasting_weight_for_height_percent_of_children_under_5
-    stVal = stuntingPlotData.Prevalence_of_stunting_height_for_age_percent_of_children_under_5
+    cYear = worldData.Year
+    ghYear = worldData.Year
+    unYear = worldData.Year
+    wsYear = worldData.Year
+    stYear = worldData.Year
+    cVal = worldData.Value
+    ghVal = worldData.Global_Hunger_Index_2021
+    unVal = worldData.Prevalence_of_underweight_weight_for_age_percent_of_children_under_5
+    wsVal = worldData.Prevalence_of_wasting_weight_for_height_percent_of_children_under_5
+    stVal = worldData.Prevalence_of_stunting_height_for_age_percent_of_children_under_5
 
     #Set up plots for crop yield graph
     axs[0].scatter(cYear, cVal, color = '#0033ff')
-    axs[0].plot(cYear, cVal, color = '#fca000')
+    axs[0].plot(cYear, cVal, color = '#0033ff')
 
     axs[0].set_ylabel("Amount in Metric Tonnes")
     axs[0].margins(0.1, 0.1)
