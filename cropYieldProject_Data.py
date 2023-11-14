@@ -8,7 +8,6 @@ def readData(fileName):
 
     return dataIn
 
-
 def getMetricDataForPlot(dataIn, country, crop):
     if (country.lower() == 'all'):
         if (crop.lower() == 'all'):
@@ -20,7 +19,6 @@ def getMetricDataForPlot(dataIn, country, crop):
             dataThndTonne = dataIn[(dataIn['Code'] == country) & (dataIn['Measure'] == 'THND_TONNE')]
         else:
             dataThndTonne = dataIn[(dataIn['Code'] == country) & (dataIn['Subject'] == crop) & (dataIn['Measure'] == 'THND_TONNE')]
-
     return dataThndTonne
 
 def getHungerDataForPlot(dataIn, country):
@@ -44,6 +42,5 @@ def getWorldHungerDataForPlot(cp, gh, uw, hw, st):
     resultsOut.index.name = None
     resultsOut.insert(loc = 0, column = 'Year', value = resultsOut.index)
 
-    print(resultsOut.dtypes)
     resultsOut.to_excel('output.xlsx')
     return resultsOut

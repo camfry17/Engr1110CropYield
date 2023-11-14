@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def buildPlot(worldData, cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, country, crop):
+def buildPlot(worldData, country, crop):
     #Initialize plot parameters, figure, and axes
     plt.rcParams['toolbar'] = 'None'
     fig,axs = plt.subplots(2, layout = 'constrained')
@@ -28,8 +28,8 @@ def buildPlot(worldData, cropPlotData, ghiPlotData, underPlotData, wastingPlotDa
     stVal = worldData.Prevalence_of_stunting_height_for_age_percent_of_children_under_5
 
     #Set up plots for crop yield graph
-    axs[0].scatter(cYear, cVal, color = '#0033ff')
-    axs[0].plot(cYear, cVal, color = '#0033ff')
+    axs[0].scatter(cYear, cVal, color = '#6666ff')
+    axs[0].plot(cYear, cVal, color = '#6666ff')
 
     axs[0].set_ylabel("Amount in Metric Tonnes")
     axs[0].margins(0.1, 0.1)
