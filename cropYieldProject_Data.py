@@ -30,7 +30,7 @@ def getHungerDataForPlot(dataIn, country):
 
 
 #Concats passed dataframes into a single dataframe, then groups data by year and calculates averages of data by year
-def getWorldHungerDataForPlot(cp, gh, uw, hw, st):
+def getWorldHungerDataForPlot(cp, gh, uw, hw, st, ex):
     frame = [cp, gh, uw, hw, st]
 
     results = pd.concat(frame)
@@ -42,5 +42,7 @@ def getWorldHungerDataForPlot(cp, gh, uw, hw, st):
     resultsOut.index.name = None
     resultsOut.insert(loc = 0, column = 'Year', value = resultsOut.index)
 
-    resultsOut.to_excel('output.xlsx')
+    if(ex == 1):
+        resultsOut.to_excel('output.xlsx')
+
     return resultsOut
