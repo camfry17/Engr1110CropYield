@@ -1,8 +1,8 @@
 from cropYieldProject_Data import readData, getHungerDataForPlot, getMetricDataForPlot, getWorldHungerDataForPlot
 from cropYieldProject_Plot import buildPlot
-from ctypes import windll
 from tkinter import ttk
 from tkinter import *
+import platform
 
 def doThings(country, crop, shouldExcel):
     #Call function to read data
@@ -25,9 +25,11 @@ def doThings(country, crop, shouldExcel):
     #Passes all datasets to build plot and show data on the plot
     buildPlot(outputData, country, crop)
 
-#Enable DPI Awareness for high DPI screens
-windll.shcore.SetProcessDpiAwareness(1)
-windll.user32.SetProcessDPIAware()
+#Enable DPI Awareness for high DPI screens only on windows computers
+if (platform.system() == 'Windows'):
+    from ctypes import windll
+    windll.shcore.SetProcessDpiAwareness(1)
+    windll.user32.SetProcessDPIAware()
 
 #Initialize GUI
 root = Tk()
