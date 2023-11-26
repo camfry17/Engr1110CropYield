@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def buildPlot(worldData, country, crop):
+def buildPlot(worldData, country, crop, shouldPhoto):
     #Initialize plot parameters, figure, and axes
     plt.rcParams['toolbar'] = 'None'
+    plt.rcParams['figure.dpi'] = 109
     fig,axs = plt.subplots(2, layout = 'constrained')
-    fig.set_figheight(6)
+    fig.set_figheight(7)
     fig.set_figwidth(10)
 
     if (crop.lower() == 'all' and country.lower() == 'all'):
@@ -57,5 +58,8 @@ def buildPlot(worldData, country, crop):
     fig.supxlabel("Year")
     fig.align_ylabels()
     fig.canvas.manager.set_window_title(figTitle)
+
+    if (shouldPhoto == 1):
+        plt.savefig('output.png')
 
     plt.show()
