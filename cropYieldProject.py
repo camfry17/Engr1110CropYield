@@ -1,5 +1,5 @@
 from cropYieldProject_Data import readData, getHungerDataForPlot, getMetricDataForPlot, getWorldHungerDataForPlot
-from cropYieldProject_Plot import buildPlot
+from cropYieldProject_Plot import buildPlot, buildPlotCompare
 from tkinter import ttk
 from tkinter import *
 import platform
@@ -12,6 +12,10 @@ def doThings(country, crop, shouldExcel, shouldPhoto):
     heightWastingData = readData("SOURCE_DATA/children_weight_low_height_wasting.csv")
     under5StuntingData = readData("SOURCE_DATA/children_under_5_stunting.csv")
 
+    #Check if country variable is empty
+    if (len(country) < 1):
+        country = 'ALL'
+
     #Call function to filter plot data with country parameter
     cropPlotData = getMetricDataForPlot(prodData, country, crop)
     ghiPlotData = getHungerDataForPlot(ghiData, country)
@@ -22,8 +26,22 @@ def doThings(country, crop, shouldExcel, shouldPhoto):
     #Combines dataframes from each dataset and returns based on specified inputs
     outputData = getWorldHungerDataForPlot(cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, shouldExcel)
 
-    #Passes all datasets to build plot and show data on the plot
-    buildPlot(outputData, country, crop, shouldPhoto)
+    if (country.lower() != 'all'):
+        #Call function to filter plot data with 'all' country parameter
+        wCropPlotData = getMetricDataForPlot(prodData, 'all', crop)
+        wGhiPlotData = getHungerDataForPlot(ghiData, 'all')
+        wUnderPlotData = getHungerDataForPlot(underweightData, 'all')
+        wWastingPlotData = getHungerDataForPlot(heightWastingData, 'all')
+        wStuntingPlotData = getHungerDataForPlot(under5StuntingData, 'all')
+
+        #Combines dataframes from each dataset and returns based on specified inputs
+        wOutputData = getWorldHungerDataForPlot(wCropPlotData, wGhiPlotData, wUnderPlotData, wWastingPlotData, wStuntingPlotData, 0)
+
+    if (country.lower() == 'all'):
+        #Passes all datasets to build plot and show data on the plot
+        buildPlot(outputData, country, crop, shouldPhoto)
+    elif (country.lower() != 'all'):
+        buildPlotCompare(outputData, wOutputData, country, crop, shouldPhoto)
 
 #Enable DPI Awareness (only applies to windows systems)
 if (platform.system() == 'Windows'):
