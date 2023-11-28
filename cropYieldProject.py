@@ -12,7 +12,7 @@ def doThings(country, crop, shouldExcel, shouldPhoto):
     heightWastingData = readData("SOURCE_DATA/children_weight_low_height_wasting.csv")
     under5StuntingData = readData("SOURCE_DATA/children_under_5_stunting.csv")
 
-    #Check if country variable is empty
+    #Assigns country variable with 'ALL' if country variable is empty
     if (len(country) < 1):
         country = 'ALL'
 
@@ -26,6 +26,7 @@ def doThings(country, crop, shouldExcel, shouldPhoto):
     #Combines dataframes from each dataset and returns based on specified inputs
     outputData = getWorldHungerDataForPlot(cropPlotData, ghiPlotData, underPlotData, wastingPlotData, stuntingPlotData, shouldExcel)
 
+    #If a country is specified, the data functions are called again to filter plot data for entire world for comparison
     if (country.lower() != 'all'):
         #Call function to filter plot data with 'all' country parameter
         wCropPlotData = getMetricDataForPlot(prodData, 'all', crop)
@@ -37,10 +38,12 @@ def doThings(country, crop, shouldExcel, shouldPhoto):
         #Combines dataframes from each dataset and returns based on specified inputs
         wOutputData = getWorldHungerDataForPlot(wCropPlotData, wGhiPlotData, wUnderPlotData, wWastingPlotData, wStuntingPlotData, 0)
 
+    #Decides which plot function to call based on whether a country is specified
     if (country.lower() == 'all'):
-        #Passes all datasets to build plot and show data on the plot
-        buildPlot(outputData, country, crop, shouldPhoto)
+        #Passes all datasets to build plots and show data on the plots
+        buildPlot(outputData, crop, shouldPhoto)
     elif (country.lower() != 'all'):
+        #Passes all datasets for country and world to build plots and show data on the plots
         buildPlotCompare(outputData, wOutputData, country, crop, shouldPhoto)
 
 #Enable DPI Awareness (only applies to windows systems)

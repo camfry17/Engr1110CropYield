@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 #Read data from file into variable
 def readData(fileName):
@@ -8,6 +7,7 @@ def readData(fileName):
 
     return dataIn
 
+#Filter crop yield data based on country code and crop type specified
 def getMetricDataForPlot(dataIn, country, crop):
     if (country.lower() == 'all'):
         if (crop.lower() == 'all'):
@@ -21,6 +21,7 @@ def getMetricDataForPlot(dataIn, country, crop):
             dataThndTonne = dataIn[(dataIn['Code'] == country) & (dataIn['Subject'] == crop) & (dataIn['Measure'] == 'THND_TONNE')]
     return dataThndTonne
 
+#Filter hunger data based on country code specified
 def getHungerDataForPlot(dataIn, country):
     if (country.lower() == 'all'):
         hungerData = dataIn
@@ -42,6 +43,7 @@ def getWorldHungerDataForPlot(cp, gh, uw, hw, st, ex):
     resultsOut.index.name = None
     resultsOut.insert(loc = 0, column = 'Year', value = resultsOut.index)
 
+    #Exports dataframe as an excel file if specified in GUI
     if(ex == 1):
         resultsOut.to_excel('output.xlsx')
 
